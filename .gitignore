@@ -13,6 +13,7 @@ PLANS.md
 *.egg-info
 .eggs
 venv
+.venv
 docs/_build
 /.tox
 /lib
