@@ -1,6 +1,6 @@
 __version__ = '3.0.0'
 
-from . import types, extensions
+from . import types
 from .models import Model, ModelMeta
 
 types.compound.Model = Model
