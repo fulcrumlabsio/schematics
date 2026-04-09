@@ -35,10 +35,7 @@ setup(
         'schematics': ['locale/*/LC_MESSAGES/*.mo']
     },
     include_package_data=True,
-    setup_requires=[
-        'pytest-runner',
-        'mo_installer',
-    ],
+    setup_requires=[],
     tests_require=[
         'pytest',
         'python-dateutil',
